@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1719653303675' stop='1719653330523'>
+    <name>Raffle Form</name>
+    <title>Raffle Form</title>
+    <test-cases>
+        <test-case start='1719653303725' status='passed' stop='1719653307968'>
+            <name>should require name, age, and valid email address</name>
+            <title>should require name, age, and valid email address</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719653308003' status='passed' stop='1719653318781'>
+            <name>should allow multiple entries and display submission count</name>
+            <title>should allow multiple entries and display submission count</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719653318821' status='passed' stop='1719653322173'>
+            <name>should allow the customer to submit the form with a reason</name>
+            <title>should allow the customer to submit the form with a reason</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719653322197' status='passed' stop='1719653324368'>
+            <name>should allow the customer to submit the form without a reason</name>
+            <title>should allow the customer to submit the form without a reason</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719653324387' status='passed' stop='1719653328675'>
+            <name>should not allow a customer under 18 to submit the form</name>
+            <title>should not allow a customer under 18 to submit the form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719653328693' status='failed' stop='1719653329751'>
+            <name>should turn the input field blue when focused</name>
+            <title>should turn the input field blue when focused</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>input[name='name'] should have blue border when focused.: expected 'rgb(0, 0, 255)' to equal 'rgb(221, 221, 221)'</message>
+                <stack-trace>AssertionError: input[name='name'] should have blue border when focused.: expected 'rgb(0, 0, 255)' to equal 'rgb(221, 221, 221)'
+                    at Context.eval (webpack://bluebite-qa/./cypress/e2e/raffleform.cy.js:131:48)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1719653329821' status='failed' stop='1719653330513'>
+            <name>should turn required fields red if form submission fails</name>
+            <title>should turn required fields red if form submission fails</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>input[name='name'] should have red border after failed submission.: expected 'rgb(221, 221, 221)' to equal 'rgb(255, 0, 0)'</message>
+                <stack-trace>AssertionError: input[name='name'] should have red border after failed submission.: expected 'rgb(221, 221, 221)' to equal 'rgb(255, 0, 0)'
+                    at Context.eval (webpack://bluebite-qa/./cypress/e2e/raffleform.cy.js:153:43)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

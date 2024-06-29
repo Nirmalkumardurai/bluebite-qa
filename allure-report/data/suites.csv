@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat Jun 29 14:58:49 IST 2024","Sat Jun 29 14:58:50 IST 2024","692","","Raffle Form","","Raffle Form","should turn required fields red if form submission fails","should turn required fields red if form submission fails",""
+"failed","Sat Jun 29 14:58:48 IST 2024","Sat Jun 29 14:58:49 IST 2024","1058","","Raffle Form","","Raffle Form","should turn the input field blue when focused","should turn the input field blue when focused",""
+"passed","Sat Jun 29 14:58:23 IST 2024","Sat Jun 29 14:58:27 IST 2024","4243","","Raffle Form","","Raffle Form","should require name, age, and valid email address","should require name, age, and valid email address",""
+"passed","Sat Jun 29 14:58:44 IST 2024","Sat Jun 29 14:58:48 IST 2024","4288","","Raffle Form","","Raffle Form","should not allow a customer under 18 to submit the form","should not allow a customer under 18 to submit the form",""
+"passed","Sat Jun 29 14:58:42 IST 2024","Sat Jun 29 14:58:44 IST 2024","2171","","Raffle Form","","Raffle Form","should allow the customer to submit the form without a reason","should allow the customer to submit the form without a reason",""
+"passed","Sat Jun 29 14:58:38 IST 2024","Sat Jun 29 14:58:42 IST 2024","3352","","Raffle Form","","Raffle Form","should allow the customer to submit the form with a reason","should allow the customer to submit the form with a reason",""
+"passed","Sat Jun 29 14:58:28 IST 2024","Sat Jun 29 14:58:38 IST 2024","10778","","Raffle Form","","Raffle Form","should allow multiple entries and display submission count","should allow multiple entries and display submission count",""

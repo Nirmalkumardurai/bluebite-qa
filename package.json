@@ -1,0 +1,30 @@
+{
+  "name": "bluebite-qa",
+  "version": "1.0.0",
+  "description": "bluebiteqa- assessment code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser:chrome-headed": "npx cypress run --browser=chrome --headed --spec cypress/e2e/raffleform.cy.js --reporter mocha-allure-reporter",
+    "browser:chrome-headless": "npx cypress run --browser=chrome --headless --spec cypress/e2e/raffleform.cy.js --reporter mocha-allure-reporter",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirmalkumardurai/bluebite-qa.git"
+  },
+  "author": "nirmalkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirmalkumardurai/bluebite-qa/issues"
+  },
+  "homepage": "https://github.com/Nirmalkumardurai/bluebite-qa#readme",
+  "dependencies": {
+    "cypress": "^13.12.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.29.0",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
