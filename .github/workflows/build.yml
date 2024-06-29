@@ -10,28 +10,4 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
-      # - name: Install Node.js
-      #   uses: actions/setup-node@v2
-      #   with:
-      #     node-version: '14'
-
-      # - name: Install dependencies
-      #   run: npm install
-
-      # - name: Run Cypress tests
-      #   run: npm run browser:chrome-headless
-
-      # - name: Generate Allure report
-      #   run: npx run report:allure
-
-      # - name: Upload Allure report
-      #   uses: actions/upload-artifact@v2
-      #   with:
-      #     name: allure-results
-      #     path: allure-report
-
-      # - name: Deploy Allure report to GitHub Pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./allure-report
+      
