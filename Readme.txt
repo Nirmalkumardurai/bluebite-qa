@@ -1,4 +1,4 @@
-
+Setting Up and Running Cypress Tests with Allure Reporting Using GitHub Actions
 
 1. Clone Git Repository
 Clone your Git repository that contains the Cypress tests to your local machine. 
@@ -30,7 +30,9 @@ After running your tests, generate Allure reports to visualize test results.
 Open the generated Allure report in your default web browser to view detailed test results.
 
 --npx allure open
-
+ 
+7.Check Screenshots of Failed Test Cases
+Screenshots of failed test cases will be available in the cypress/screenshots folder.
 
 ***********************************************************************************************
 CI/CD (using Git Action )
