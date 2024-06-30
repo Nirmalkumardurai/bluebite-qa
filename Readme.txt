@@ -1,3 +1,5 @@
+
+
 1. Clone Git Repository
 Clone your Git repository that contains the Cypress tests to your local machine. 
 
