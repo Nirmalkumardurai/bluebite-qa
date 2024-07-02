@@ -9,6 +9,9 @@ Open your command line interface (Command Prompt for Windows).
 3. Install Dependencies (if necessary)
 If you haven't installed dependencies before, run the following command to install Cypress and other dependencies listed in package.json.
 --npm install
+4.external data 
+"If you want to provide external data for multiple submissions, please use the fixtures/customerdata.json file."
+otherwise, random data will be generated.
 
 4.Run Cypress Tests
 Run your Cypress tests using either Chrome in headed (visible browser) or headless (browser runs in the background) mode.
